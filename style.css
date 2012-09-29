@@ -34,6 +34,11 @@ body {
 	color: #999;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 h2 {
 	font-style: italic;
 	font-weight: normal;
@@ -259,3 +264,12 @@ div#container {
 	font-size:20px; 
 	line-height:30px; 
 }
+
+dl,
+dl dt,
+dl dd {
+	margin:0;
+}
+
+dl dt { margin-top:20px; font-weight:bold; }
+dl dt:first-child { margin-top:0px; }

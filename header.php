@@ -48,7 +48,7 @@
 	<div class="triangle-r"></div>
 	<div class="banner">
 		<div id="slider">
-			<?php foreach(range(1, 8) as $i): ?>
+			<?php foreach(range(1, 6) as $i): ?>
 			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/banner_<?php echo $i; ?>.jpg" alt="" /> 
 			<?php endforeach; ?>
 		</div>
